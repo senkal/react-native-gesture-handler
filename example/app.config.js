@@ -11,13 +11,13 @@ export default ({ config }) => ({
     backgroundColor: '#F8F9FF',
   },
   ios: {
-    bundleIdentifier: 'com.example',
+    bundleIdentifier: 'com.example.gestures',
     buildNumber: '1',
     supportsTablet: true,
   },
   android: {
     versionCode: 1,
-    package: 'com.example',
+    package: 'com.example.gestures',
     adaptiveIcon: {
       foregroundImage: './assets/adaptive-icon.png',
       backgroundColor: '#F8F9FF',
